@@ -5,6 +5,12 @@ VisualStudioVersion = 15.0.27428.2002
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "stats_app_v.00000000001", "stats_app_v.00000000001\stats_app_v.00000000001.csproj", "{3F2CCA93-27A5-4F8F-A34D-17EB0FECF700}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RiotSharp", "..\..\RiotSharp\RiotSharp\RiotSharp.csproj", "{253324D9-2472-4C28-BB0F-56DFF41C0384}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RiotSharp.Test", "..\..\RiotSharp\RiotSharp.Test\RiotSharp.Test.csproj", "{EE516C1D-19E3-411B-B89E-48A22751A502}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RiotSharp.AspNetCore", "..\..\RiotSharp\RiotSharp.AspNetCore\RiotSharp.AspNetCore.csproj", "{83E9F886-07FF-4756-8530-211080BE4823}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +21,18 @@ Global
 		{3F2CCA93-27A5-4F8F-A34D-17EB0FECF700}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3F2CCA93-27A5-4F8F-A34D-17EB0FECF700}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3F2CCA93-27A5-4F8F-A34D-17EB0FECF700}.Release|Any CPU.Build.0 = Release|Any CPU
+		{253324D9-2472-4C28-BB0F-56DFF41C0384}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{253324D9-2472-4C28-BB0F-56DFF41C0384}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{253324D9-2472-4C28-BB0F-56DFF41C0384}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{253324D9-2472-4C28-BB0F-56DFF41C0384}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE516C1D-19E3-411B-B89E-48A22751A502}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE516C1D-19E3-411B-B89E-48A22751A502}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE516C1D-19E3-411B-B89E-48A22751A502}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE516C1D-19E3-411B-B89E-48A22751A502}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83E9F886-07FF-4756-8530-211080BE4823}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83E9F886-07FF-4756-8530-211080BE4823}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83E9F886-07FF-4756-8530-211080BE4823}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83E9F886-07FF-4756-8530-211080BE4823}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
